@@ -1,17 +1,14 @@
 {
   "name": "biproxi-template-generator",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Automatically generate common files with biproxi conventions baked in",
-  "main": "index.js",
-  "scripts": {
-    "generate": "console.log('Hello World')"
-  },
+  "main": "buildTemplate.js",
+  "scripts": {},
   "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.0.0",
-    "fs-extra": "^10.0.0",
     "replace": "^1.2.1",
     "yargs": "^17.3.1"
   }

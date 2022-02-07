@@ -4,7 +4,7 @@ const TemplateEnum = {
   component: ReactComponentTemplate,
   hook: null,
   page: null,
-  service: null,,
+  service: null,
 };
 
 export default TemplateEnum;

@@ -11,6 +11,11 @@ const argv = yargs(hideBin(process.argv))
     alias: "n",
     type: "String",
   })
+  .option("path", {
+    description: "The path where the component should be generated",
+    alias: "p",
+    type: "String",
+  })
   .help()
   .alias("help", "h").argv;
 
