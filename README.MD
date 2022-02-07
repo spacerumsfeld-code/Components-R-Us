@@ -28,9 +28,7 @@ Run the script from the directory you want to generate the template in, specifyi
 
 `node run buildComponent --name=Button`
 
-### Template Key Features
-
-#### React Component
+### React Component
 
 1. Common imports
 2. Styled container for component
@@ -38,11 +36,11 @@ Run the script from the directory you want to generate the template in, specifyi
 4. Component with State, Hooks, Actions, GraphQL, Effects, and Render sections
 5. Default export
 
-#### Hook
+### Hook
 
-#### Next.JS Page
+### Next.JS Page
 
-#### Service (API)
+### Service (API)
 
 ### To-dos
 

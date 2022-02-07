@@ -7,7 +7,7 @@ import Text from '..elements/Text';
 import Flex from '../elements/Flex';
 import Colors from '../styles/Colors';
 
-const Container = styled.div``;
+const Container = styled.div'';
 
 type ReactComponentProps = {};
 
