@@ -5,7 +5,7 @@ import TemplateEnum from "../templates/TemplateEnum.enum.js";
 import chalk from "chalk";
 
 function buildTemplate() {
-  const template = TemplateEnum[component];
+  const template = TemplateEnum.component;
   const componentPath = `${argv.path}${argv.name}.tsx`;
 
   /** if file already exists, return */
