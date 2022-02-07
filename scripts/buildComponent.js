@@ -6,7 +6,7 @@ import chalk from "chalk";
 
 function buildTemplate() {
   const template = TemplateEnum.component;
-  const componentPath = `${argv.path}${argv.name}.tsx`;
+  const componentPath = `${argv.path}/${argv.name}.tsx`;
 
   /** if file already exists, return */
   if (existsSync(componentPath)) {
