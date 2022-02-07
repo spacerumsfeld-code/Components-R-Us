@@ -1,11 +1,13 @@
 const template = `import React from 'react';
 import styled from '@emotion/styled';
 import { useAppDispatch } from '../redux/store';
-import { useQuery, useMutation } frokm 'apollo-client';
+import { useQuery, useMutation } from 'apollo-client';
 import { media, useMobileMedia } from '../utils/MediaQuery';
 import Text from '..elements/Text';
 import Flex from '../elements/Flex';
 import Colors from '../styles/Colors';
+
+const Container = styled.div``;
 
 type ReactComponentProps = {};
 
@@ -16,7 +18,7 @@ const ReactComponent: React.FC<ReactComponentProps> = () => {
   const isMobile = useMobileMedia();
 
   /** Actions */
-  cont dispatch = useAppDispatch();
+  const dispatch = useAppDispatch();
 
   /** GraphQL */
   type GraphQLParams = {};

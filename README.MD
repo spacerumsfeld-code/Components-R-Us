@@ -1,40 +1,52 @@
-## Components-R-Us
+## biproxi-template-generator
 
-#### To-dos
+Generate React components, hooks, Next.JS pages, and API services in line with biproxi conventions with a simple command.
 
-1. Fix the replace functionality.
-2. Add Next.JS pages
-3. Add keywords
-4. Add hooks
-5. Add services
-6. Add flags to commands for customizing template
+### How to Install
 
-### Quickly build Next.JS pages, React components, and backend services with simple commands.
+`npm i biproxi-template-generator --save-dev`
 
 ### How it Works
 
 1. Install the library.
-2. Make an npm script for each command from this library that you care to use.
+2. Make an npm script for each template you want to build.
 3. ???
-4. Profit from reduced boilerplate
+4. Profit
 
-Example:
+### Example:
 
 ```
 {
   scripts:
-    "build component": "node ./node_modules/Components-R-Us/buildComponent.js --n process.argv.name",
+    "buildComponent": "node ./node_modules/biproxi-template-generator/scripts/buildTemplate.js build component -n $npm_config_name -p $INIT_CWD",
+    "buildPage": ...
+    ...
 }
 ```
 
-93361383
+Run the script from the directory you want to generate the template in, specifying a name:
 
-### Components
+`node run buildComponent --name=Button`
+
+### Template Key Features
 
 #### React Component
+
+1. Common imports
+2. Styled container for component
+3. Typing for component props
+4. Component with State, Hooks, Actions, GraphQL, Effects, and Render sections
+5. Default export
 
 #### Hook
 
 #### Next.JS Page
 
 #### Service (API)
+
+### To-dos
+
+1. Add Next.JS pages
+2. Add hooks
+3. Clean up this README
+4. Add API services and sub-components

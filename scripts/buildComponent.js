@@ -46,7 +46,6 @@ async function buildTemplate() {
 
   /**  Inject the specified component name into file */
   try {
-    console.log("componentPath", componentPath);
     replace({
       regex: "ReactComponent",
       replacement: argv.name,
