@@ -1,6 +1,6 @@
 {
   "name": "biproxi-template-generator",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Automatically generate common files with biproxi conventions baked in",
   "main": "TemplateEnum.enum.js",
   "scripts": {},
